@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+  <h1>Welcome {{user.first_name}} to your profile</h1>
+  <h3><a href="{% url 'logout' %}">logout</a></h3>
+{% endblock %}

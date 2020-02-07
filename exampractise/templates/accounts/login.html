@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<h1>This is Login page </h1>
+
+<v-container>
+    <form action="login" method="post">
+        {% csrf_token %}
+        <input type="text" name="username" placeholder="Username"/><br/>
+        <input type="text" name="password" placeholder="Password"/><br/>
+        <input type="submit"/>
+    </form>
+</v-container>
+<v-container>
+    {% for message in messages %}
+    <div class="">{{message}}</div>
+    {% endfor %}
+</v-container>
+{% endblock %}

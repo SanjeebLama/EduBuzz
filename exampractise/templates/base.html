@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<link rel="stylesheet" type="text/css" href="{% static 'css/layout.css' %}">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Quicksand|Roboto+Slab&display=swap" rel="stylesheet">
+<body>
+    {% include 'partials/header.html' %}
+    {% include 'partials/nav.html' %}
+    {% block content %}
+    {% endblock %}
+<!--    {% include 'partials/footer.html' %}-->
+</body>
+</html>
