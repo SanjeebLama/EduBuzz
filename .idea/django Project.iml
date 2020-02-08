@@ -6,5 +6,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="django" />
     <orderEntry type="module" module-name="sulak" />
+    <orderEntry type="module" module-name="django-quiz-app" />
   </component>
 </module>

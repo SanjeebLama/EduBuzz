@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://D:/django/.idea/django.iml" filepath="D:/django/.idea/django.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/django Project.iml" filepath="$PROJECT_DIR$/.idea/django Project.iml" />
+      <module fileurl="file://D:/Test/django-quiz-app/.idea/django-quiz-app.iml" filepath="D:/Test/django-quiz-app/.idea/django-quiz-app.iml" />
       <module fileurl="file://D:/Python Morning/realdeal/.idea/sulak.iml" filepath="D:/Python Morning/realdeal/.idea/sulak.iml" />
     </modules>
   </component>
