@@ -1,4 +1,6 @@
 from django.conf.urls import url
+from django.http import request
+
 from .views import QuizListView, CategoriesListView, \
     ViewQuizListByCategory, QuizUserProgressView, QuizMarkingList, \
     QuizMarkingDetail, QuizDetailView, QuizTake
@@ -9,9 +11,9 @@ urlpatterns = [
     # path('login/', view=login_user, name='login'),
     # url(regex=r'^logout/$', view=logout_user, name='logout'),
 
-    path('quizzes/',view=QuizListView.as_view(),name='quiz_index'),
+    path('quizzes/', view=QuizListView.as_view(), name='quiz_index'),
 
-    path('category/',view=CategoriesListView.as_view(),name='quiz_category_list_all'),
+    path('category/', view=CategoriesListView.as_view(), name='quiz_category_list_all'),
 
     url(regex=r'^category/(?P<category_name>[\w|\W-]+)/$',
         view=ViewQuizListByCategory.as_view(),

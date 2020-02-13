@@ -1,44 +1,52 @@
 {% extends 'base.html' %}
-{% load i18n %}
+{% load static %}{% load i18n %}
+
+
 {% load quiz_tags %}
 {% block title %}{% trans "All Quizzes" %}{% endblock %}
 
 {% block content %}
-<h2>{% trans "List of quizzes" %}</h2>
+<section class=" d-flex flex-column">
+
+
+    <h2>{% trans "List of quizzes" %}</h2>
     {% if quiz_list %}
-		<table class="table table-bordered table-striped">
+    <h1>List of quizzes</h1>
 
-		  <thead>
-			<tr>
-			  <th>{% trans "Title" %}</th>
-			  <th>{% trans "Category" %}</th>
-			  <th>{% trans "Exam" %}</th>
-			  <th>{% trans "Single attempt" %}</th>
-			  <th></th>
-			</tr>
-		  </thead>
+    <table class="table table-hover">
+        <thead>
+        <tr>
+            <th scope="col">{% trans "Title" %}</th>
+            <th scope="col">{% trans "Category" %}</th>
+            <th scope="col">{% trans "Exam" %}</th>
+            <th scope="col">{% trans "Single attempt" %}</th>
+            <th></th>
+        </tr>
+        </thead>
 
-		  <tbody>
-
+        <tbody>
         {% for quiz in quiz_list %}
 
-  			<tr>
-			  <td>{{ quiz.title }}</td>
-			  <td>{{ quiz.category }}</td>
-			  <td>{{ quiz.exam_paper }}</td>
-			  <td>{{ quiz.single_attempt }}</td>
-			  <td>
-				<a href="{% url 'quiz_start_page' slug=quiz.url %}">
-				  {% trans "View details" %}
-				</a>
-			</tr>
+        <tr>
+            <td scope="col">{{ quiz.title }}</td>
+            <td scope="col">{{ quiz.category }}</td>
+            <td scope="col">{{ quiz.exam_paper }}</td>
+            <td scope="col">{{ quiz.single_attempt }}</td>
+            <td scope="col"><a href="{% url 'quiz_start_page' slug=quiz.url %}">{% trans "View details" %}</a>
+            </td>
+        </tr>
 
         {% endfor %}
-		  </tbody>
+        </tbody>
 
-		</table>
+    </table>
 
-	{% else %}
-        <p>{% trans "There are no available quizzes" %}.</p>
+    {% else %}
+    <p>{% trans "There are no available quizzes" %}.</p>
     {% endif %}
+
+</section>
 {% endblock %}
+
+
+

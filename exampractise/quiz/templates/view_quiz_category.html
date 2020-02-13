@@ -3,6 +3,8 @@
 {% block title %}{% trans "Quizzes related to" %} {{ category.category }}{% endblock %}
 
 {% block content %}
+<section class=" d-flex flex-column">
+
 <h1>{% trans "Quizzes in the" %} <strong>{{ category.category }} </strong>{% trans "category" %}</h1>
 
   {% with object_list as quizzes %}
@@ -20,4 +22,5 @@
         <p>{% trans "There are no quizzes" %}</p>
     {% endif %}
   {% endwith %}
+</section>
 {% endblock %}

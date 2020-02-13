@@ -7,6 +7,7 @@
 {% block description %} {{ quiz.title }} - {{ quiz.description }} {% endblock %}
 
 {% block content %}
+<section class=" d-flex flex-column">
 
 
 {% if user.is_authenticated %}
@@ -14,5 +15,5 @@
 {% else %}
   <p>{% trans "This exam is only accessible to signed in users" %}.</p>
 {% endif %}
-
+</section>
 {% endblock %}

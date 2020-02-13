@@ -1,5 +1,6 @@
 {% load i18n %}
 {% if previous.answers %}
+<section class=" d-flex flex-column">
 
   {% if user_was_incorrect %}
     <div class="alert alert-error">
@@ -29,4 +30,5 @@
   	{% endfor %}
     </tbody>
   </table>
+</section>
 {% endif %}

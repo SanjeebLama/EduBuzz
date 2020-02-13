@@ -2,17 +2,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
+    <title>EduBuzz</title>
 </head>
 <link rel="stylesheet" type="text/css" href="{% static 'css/layout.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/variables.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/theme.css' %}">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Quicksand|Roboto+Slab&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
 <body>
-    {% include 'partials/header.html' %}
+    <!-- {% include 'partials/header.html' %} -->
     {% include 'partials/nav.html' %}
+    <main>	
     {% block content %}
     {% endblock %}
-<!--    {% include 'partials/footer.html' %}-->
+    </main>
+    {% include 'partials/footer.html' %}
 </body>
 </html>

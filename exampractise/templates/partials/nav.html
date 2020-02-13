@@ -1,11 +1,13 @@
 <nav>
-    <div class="logo"></div>
+    <div class="logo">Logo</div>
     <div class="nav-items">
         <div class="nav-item">
             <a href="{% url 'index' %}" style="text-decoration: none;">Home</a>
         </div>
-        <div class="nav-item"><a href="{% url 'about' %}" style="text-decoration: none;">About</a>
+        <div class="nav-item">
+            <a href="{% url 'browse' %}" style="text-decoration: none;">Courses</a>
         </div>
+
 
         {% if user.is_authenticated %}
         <div class="nav-item">
@@ -18,23 +20,26 @@
         </div>
 
         <div class="nav-item">
-             <a href="{% url 'insideAuth' %}" style="text-decoration: none;">Dashboard</a>
-            </div>
+            <a href="{% url 'insideAuth' %}" style="text-decoration: none;">Dashboard</a>
+        </div>
 
 
         {% else %}
         <div class="nav-item">
-            Discussion
+            <a href="{% url 'index' %}" style="text-decoration: none;">Discussions</a>
         </div>
         <div class="nav-item">
-            BIM
-
+            <a href="{% url 'index' %}" style="text-decoration: none;">About</a>
         </div>
 
-        <div class="nav-item">Contacts</div>
+
+        <div class="nav-item">
+
+            <a href="{% url 'login' %}" style="text-decoration: none;"  >Login</a>
+        </div>
+
         {% endif %}
 
 
     </div>
-
 </nav>

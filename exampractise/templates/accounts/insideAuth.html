@@ -1,10 +1,21 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block content %}
-<h1>Hi {{user.username}}, this is your dashboard </h1>
-    <p>Username: {{user.username}}</p>
-    <p>Name: {{user.first_name}} {{user.last_name}}</p>
-    <p>Email: {{user.email}}</p>
- <h3><a href="{% url 'logout' %}">logout</a></h3>
+    <section class="home d-flex">
 
+    	<div class="text-area d-flex flex-column mt-4">
+				<br/>
+		<br/>
+		<br/>
+    			<div class="sub-title">Welcome {{user.username}}, to your profile</div>
+    			<div class="sub-title">
+
+    			</div>
+
+    				<a href="{% url 'logout' %}" class="btn btn-primary">Logout</a>
+    	</div>
+    		<div class="image-box">
+    				<img src="{% static 'images/profile.png' %}">
+    		</div>
+    </section>
 {% endblock %}

@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<section class="browse d-flex p-5">
+	<div class="side-bar card w-25">
+		<h3>Filters</h3>
+		<h4>Faculty</h4>
+		<div class="filters">
+			<div class="checkbox">
+			<input type="checkbox" name="checkbox">
+			<label>BIM</label>	
+			</div>
+		</div>
+	</div>
+	<div class="content-area flex-one d-flex flex-column">
+			<div class="search-box w-100 d-flex mx-10px">
+    				<input type="search" placeholder="Enter subjects, faculty" name="search-term">
+    				<button class="btn btn-primary">Search</button>
+    		</div>
+    		<div class="content d-flex flex-wrap flex-one">
+    			<div class="course card flex-one d-flex flex-column align-center">	
+					<div class="subject title flex-one flex-centered">Maths</div>
+					<div class="faculty sub-title ">Faculty:BIM</div>
+					<div class="sub-title">1st semester</div>
+					<div class="button-box">	
+							<a href="{% url 'subject' 'hehe' %}" class="btn btn-primary">View More</a>
+					</div>
+				</div>
+				<div class="course card flex-one d-flex flex-column align-center">	
+					<div class="subject title flex-one flex-centered">Maths</div>
+					<div class="faculty sub-title ">Faculty:BIM</div>
+					<div class="sub-title">1st semester</div>
+					<div class="button-box">	
+							<a href="{% url 'subject' 'hehe' %}" class="btn btn-primary">View More</a>
+					</div>
+				</div>
+				<div class="course card flex-one d-flex flex-column align-center">	
+					<div class="subject title flex-one flex-centered">Maths</div>
+					<div class="faculty sub-title ">Faculty:BIM</div>
+					<div class="sub-title">1st semester</div>
+					<div class="button-box">	
+							<a href="{% url 'subject' 'hehe' %}" class="btn btn-primary">View More</a>
+					</div>
+				</div>
+			</div>
+	</div>
+</section>
+{% endblock %}

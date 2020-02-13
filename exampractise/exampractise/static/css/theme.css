@@ -1,0 +1,120 @@
+body{
+	font-family: "Poppins",sans-serif
+}
+
+main::before{
+	height:100%;
+	width:100%;
+	background:url('../images/background.jpg');
+	background-size:30%;
+	position: absolute;
+	content:'';
+	opacity: .3
+}
+
+.dark-background{
+	background:rgba(0,0,0,0.9);
+	color:white;
+}
+
+main{
+	position: relative;
+	z-index: 1;
+}
+
+main>section{
+	position: relative;
+	z-index: 1;
+}
+.title{
+	font-size:var(--big-title-font);
+	font-weight: bolder;
+	font-family: var(--title-font);
+}
+
+.sub-title{
+	font-size:var(--title-font);
+	font-weight: bold;
+	margin:10px 0;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-right{
+	text-align: right;
+}
+.search-box{
+	width:500px;
+	margin:10px 0;
+	padding:10px 15px;
+	display: flex;
+	align-items: center;
+	border:1px solid rgba(0,0,0,0.2);
+	border-radius: var(--border-radius);
+	background:white;
+	box-shadow: var(--box-shadow)
+}
+
+.search-box input{
+	border:none;
+	padding:0 10px;
+	flex:1;
+}
+
+.search-box input:focus{
+	outline: none;
+}
+
+
+.btn{
+	display: block;
+	text-decoration: none;
+	padding:10px 15px;
+	border-radius: var(--border-radius);
+	border:none;
+	box-shadow: var(--box-shadow);
+}
+
+.btn.btn-primary{
+	background:var(--primary-color);
+	color:var(--light-color);
+}
+
+.btn-light{
+	background:var(--primary-color);
+	background:var(--light-color);
+}
+
+
+/* card */
+.card{
+	border-radius: 5px;
+	padding:10px;
+	box-sizing: border-box;
+	box-shadow: var(--box-shadow);
+}
+
+/*banner-box */
+.advertisement{
+	height:unset;
+}
+
+.banner-box{
+	color:var(--light-color);
+	width:100%;
+	height:40vh;
+	border-radius: var(--border-radius);
+	box-shadow: var(--box-shadow);
+	background:var(--primary-color);
+	overflow: hidden;
+}
+
+.banner-box img{
+	height: 100%;
+	width:50%;
+	object-fit: cover;
+	object-position: center top;
+
+}
