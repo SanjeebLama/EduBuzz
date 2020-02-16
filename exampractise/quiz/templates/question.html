@@ -6,14 +6,18 @@
 {% block description %} {{ quiz.title }} - {{ quiz.description }} {% endblock %}
 
 {% block content %}
-<section class="quiz d-flex flex-column">
-    <br/>
-    <br/>
-    <br/>
-    <br/>
 
+<section class="bradcam_area bradcam_bg_1">
+<div class="whole-wrap">
+		<div class="container box_1170">
+			<div class="section-top-border">
+				<h3 class="mb-30">  {% if previous.answers %}</h3>
+				<div class="row">
+					<div class="col-md-3">
+						<img src="img/elements/d.jpg" alt="" class="img-fluid">
+					</div>
+					<div class="col-md-9 mt-sm-20">
 
-    {% if previous.answers %}
 
     <p class="muted"><small>{% trans "The previous question" %}:</small></p>
     <p>{{ previous.previous_question }}</p>
@@ -49,18 +53,18 @@
 
         {% if progress %}
         <div style="float: right;">
-            {% trans "Question" %} {{ progress.0|add:1 }} {% trans "of" %} {{ progress.1 }}
+          <h6>  {% trans "Question" %} {{ progress.0|add:1 }} {% trans "of" %} {{ progress.1 }}</h6>
         </div>
         {% endif %}
 
         <p>
-            <small class="muted">{% trans "Question category" %}:</small>
+            <h5 class="muted" style="color:white">{% trans "Question category" %}:</h5>
 
-            <u>{{ question.category }}</u>
+            <u style="color:white">{{ question.category }}</u>
         </p>
 
-        <p class="lead"><b><strong>Q</strong>
-            {{ question.content }}</b></p>
+        <h7 class="lead"  style="color:white">Q{{ progress.0|add:1 }}.
+            {{ question.content }}</h7>
 
         {% if question.figure %}
 
@@ -80,13 +84,15 @@
 
             </ul>
             {% if progress.0|add:1 == progress.1 %}
+
 			<div class="button-box d-flex w-100 justify-start">
-                <input type="submit" class="btn btn-primary" value={% trans "Submit" %} />
+
+                <input type="submit" class="genric-btn primary" value={% trans "Submit" %} />
             </div>
 
             {% else %}
             <div class="button-box d-flex w-100 justify-start">
-                <input type="submit" class="btn btn-primary" value={% trans "Next" %} />
+                <input type="submit" class="genric-btn primary" value={% trans "Next" %} />
             </div>
 
             {% endif %}
@@ -95,6 +101,13 @@
         {% endif %}
 
         <hr>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 
 
 </section>

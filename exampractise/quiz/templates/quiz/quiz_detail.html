@@ -5,17 +5,26 @@
 {% endblock %}
 
 {% block content %}
-<section class="d-flex flex-column">
-    <h2>{{ quiz.title }}</h2>
-    <h3>{% trans "Category" %}: {{ quiz.category }}</h3>
-    {% if quiz.single_attempt %}
-    <h4>{% trans "You will only get one attempt at this quiz" %}.</h4>
-    {% endif %}
-    <p>{{ quiz.description }}</p>
-    <p>
-        <a href="{% url 'quiz_question' quiz_name=quiz.url %}">
-            {% trans "Start quiz" %}
-        </a>
-    </p>
+<section class="bradcam_area bradcam_bg_1">
+
+    <div class="col-lg-7 col-md-6">
+        <div class="slider_text">
+
+            <h2 style="color:white">{{ quiz.title }}</h2>
+            <h5 style="color:white">{% trans "Category" %}: {{ quiz.category }}</h5>
+            {% if quiz.single_attempt %}
+            <h4>{% trans "You will only get one attempt at this quiz" %}.</h4>
+            {% endif %}
+            <p>{{ quiz.description }}</p>
+
+
+            <div class="sldier_btn wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+                <a href="{% url 'quiz_question' quiz_name=quiz.url %}" class="boxed-btn3"> {% trans "Start quiz" %}
+                </a>
+            </div>
+
+            </p>
+        </div>
+    </div>
 </section>
 {% endblock %}

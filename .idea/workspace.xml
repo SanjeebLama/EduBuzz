@@ -2,47 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78bf5bd3-3090-4ad1-ace4-6eb92ad782f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/exampractise/exampractise/static/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exampractise/exampractise/static/img/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exampractise/exampractise/static/img/1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exampractise/exampractise/static/img/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exampractise/exampractise/static/img/2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exampractise/exampractise/static/img/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exampractise/exampractise/static/img/3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exampractise/exampractise/static/img/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exampractise/exampractise/static/img/4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exampractise/exampractise/static/img/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exampractise/exampractise/static/img/5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exampractise/exampractise/static/img/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exampractise/exampractise/static/img/6.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exampractise/exampractise/static/img/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exampractise/exampractise/static/img/7.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exampractise/exampractise/static/img/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exampractise/exampractise/static/img/profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exampractise/exampractise/static/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exampractise/exampractise/static/logo_transparent.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampractise/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/exampractise/accounts/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exampractise/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/exampractise/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampractise/exampractise/static/css/layout.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampractise/exampractise/static/css/theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampractise/exampractise/static/css/variables.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampractise/exampractise/static/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampractise/pages/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/exampractise/pages/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampractise/pages/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/exampractise/pages/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampractise/templates/accounts/insideAuth.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampractise/templates/accounts/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampractise/templates/accounts/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampractise/templates/accounts/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampractise/quiz/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/exampractise/quiz/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampractise/quiz/templates/correct_answer.html" beforeDir="false" afterPath="$PROJECT_DIR$/exampractise/quiz/templates/correct_answer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampractise/quiz/templates/progress.html" beforeDir="false" afterPath="$PROJECT_DIR$/exampractise/quiz/templates/progress.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampractise/quiz/templates/question.html" beforeDir="false" afterPath="$PROJECT_DIR$/exampractise/quiz/templates/question.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampractise/quiz/templates/quiz/category_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/exampractise/quiz/templates/quiz/category_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampractise/quiz/templates/quiz/quiz_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/exampractise/quiz/templates/quiz/quiz_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampractise/quiz/templates/quiz/quiz_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/exampractise/quiz/templates/quiz/quiz_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampractise/quiz/templates/quiz/sitting_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/exampractise/quiz/templates/quiz/sitting_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampractise/quiz/templates/quiz/sitting_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/exampractise/quiz/templates/quiz/sitting_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampractise/quiz/templates/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/exampractise/quiz/templates/result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampractise/quiz/templates/single_complete.html" beforeDir="false" afterPath="$PROJECT_DIR$/exampractise/quiz/templates/single_complete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampractise/quiz/templates/view_quiz_category.html" beforeDir="false" afterPath="$PROJECT_DIR$/exampractise/quiz/templates/view_quiz_category.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exampractise/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/exampractise/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampractise/templates/pages/browse.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampractise/templates/pages/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampractise/templates/pages/quiz.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampractise/templates/pages/search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampractise/templates/pages/subject.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampractise/templates/partials/footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampractise/templates/partials/header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampractise/templates/partials/nav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampractise/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/exampractise/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

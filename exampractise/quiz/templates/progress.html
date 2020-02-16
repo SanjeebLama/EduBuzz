@@ -8,80 +8,90 @@
 
 {% block content %}
 <section class=" d-flex flex-column">
+    <div class="bradcam_area bradcam_bg_1">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="bradcam_text">
 
-  {% if cat_scores %}
+                        {% if cat_scores %}
 
-  <h1>{% trans "Question Category Scores" %}</h1>
+                        <h1 style="color:white">{% trans "Question Category Scores" %}</h1>
 
-  <table class="table table-bordered table-striped">
+                        <table class="table table-bordered table-striped">
 
-	<thead>
-	  <tr>
-		<th>{% trans "Category" %}</th>
-		<th>{% trans "Correctly answererd" %}</th>
-		<th>{% trans "Incorrect" %}</th>
-		<th>%</th>
-	  </tr>
-	</thead>
+                            <thead>
+                            <tr style="color:white">
+                                <th>{% trans "Category" %}</th>
+                                <th>{% trans "Correctly answererd" %}</th>
+                                <th>{% trans "Incorrect" %}</th>
+                                <th>%</th>
+                            </tr>
+                            </thead>
 
-	<tbody>
-
-
-	  {% for cat, value in cat_scores.items %}
-	  <tr>
-		<td>{{ cat }}</td>
-		<td>{{ value.0 }}</td>
-		<td>{{ value.1 }}</td>
-		<td>{{ value.2 }}</td>
-	  </tr>
-
-	  {% endfor %}
-
-	</tbody>
-
-  </table>
+                            <tbody style="color:white">
 
 
-  {% endif %}
+                            {% for cat, value in cat_scores.items %}
+                            <tr>
+                                <td>{{ cat }}</td>
+                                <td>{{ value.0 }}</td>
+                                <td>{{ value.1 }}</td>
+                                <td>{{ value.2 }}</td>
+                            </tr>
 
-  {% if exams %}
+                            {% endfor %}
 
-  <hr>
+                            </tbody>
 
-  <h1>{% trans "Previous exam papers" %}</h1>
-  <p class="lead">
-	{% trans "Below are the results of exams that you have sat." %}
-  </p>
+                        </table>
 
-  <table class="table table-bordered table-striped">
 
-	<thead>
-	  <tr>
-		<th>{% trans "Quiz Title" %}</th>
-		<th>{% trans "Score" %}</th>
-		<th>{% trans "Possible Score" %}</th>
-		<th>%</th>
-	  </tr>
-	</thead>
+                        {% endif %}
 
-	<tbody>
+                        {% if exams %}
 
-	  {% for exam in exams %}
+                        <hr>
 
-	  <tr>
-		<td>{{ exam.quiz.title }}</td>
-		<td>{{ exam.current_score }}</td>
-		<td>{{ exam.get_max_score }}</td>
-		<td>{{ exam.get_percent_correct }}</td>
-	  </tr>
+                        <h1 style="color:white">{% trans "Previous exam papers" %}</h1>
+                        <p class="lead">
+                            {% trans "Below are the results of exams that you have sat." %}
+                        </p>
 
-	  {% endfor %}
+                        <table class="table table-bordered table-striped">
 
-	</tbody>
+                            <thead>
+                            <tr style="color:white">
+                                <th>{% trans "Quiz Title" %}</th>
+                                <th>{% trans "Score" %}</th>
+                                <th>{% trans "Possible Score" %}</th>
+                                <th>%</th>
+                            </tr>
+                            </thead>
 
-  </table>
+                            <tbody>
 
-  {% endif %}
+                            {% for exam in exams %}
 
+                            <tr style="color:white">
+                                <td>{{ exam.quiz.title }}</td>
+                                <td>{{ exam.current_score }}</td>
+                                <td>{{ exam.get_max_score }}</td>
+                                <td>{{ exam.get_percent_correct }}</td>
+                            </tr>
+
+                            {% endfor %}
+
+                            </tbody>
+
+                        </table>
+
+                        {% endif %}
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 {% endblock %}

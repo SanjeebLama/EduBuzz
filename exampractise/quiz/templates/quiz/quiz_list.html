@@ -6,20 +6,22 @@
 {% block title %}{% trans "All Quizzes" %}{% endblock %}
 
 {% block content %}
-<section class=" d-flex flex-column">
+
+<section class=" bradcam_area bradcam_bg_1">
 
 
-    <h2>{% trans "List of quizzes" %}</h2>
+
+    <h2 class="" style="color:white">{% trans "List of quizzes" %}</h2>
     {% if quiz_list %}
-    <h1>List of quizzes</h1>
+
 
     <table class="table table-hover">
         <thead>
         <tr>
-            <th scope="col">{% trans "Title" %}</th>
-            <th scope="col">{% trans "Category" %}</th>
-            <th scope="col">{% trans "Exam" %}</th>
-            <th scope="col">{% trans "Single attempt" %}</th>
+            <th scope="col" style="color:white">{% trans "Title" %}</th>
+            <th scope="col" style="color:white">{% trans "Category" %}</th>
+            <th scope="col" style="color:white">{% trans "Exam" %}</th>
+            <th scope="col"style="color:white">{% trans "Single attempt" %}</th>
             <th></th>
         </tr>
         </thead>
@@ -28,11 +30,12 @@
         {% for quiz in quiz_list %}
 
         <tr>
-            <td scope="col">{{ quiz.title }}</td>
-            <td scope="col">{{ quiz.category }}</td>
-            <td scope="col">{{ quiz.exam_paper }}</td>
-            <td scope="col">{{ quiz.single_attempt }}</td>
-            <td scope="col"><a href="{% url 'quiz_start_page' slug=quiz.url %}">{% trans "View details" %}</a>
+            <td scope="col"style="color:white">{{ quiz.title }}</td>
+            <td scope="col" style="color:white">{{ quiz.category }}</td>
+            <td scope="col" style="color:white">{{ quiz.exam_paper }}</td>
+            <td scope="col" style="color:white">{{ quiz.single_attempt }}</td>
+            <td scope="col"style="color:white">
+                            <a href="{% url 'quiz_start_page' slug=quiz.url %}" style="color:white">{% trans "View details" %}</a>
             </td>
         </tr>
 
@@ -42,7 +45,7 @@
     </table>
 
     {% else %}
-    <p>{% trans "There are no available quizzes" %}.</p>
+    <p style="color:white">{% trans "There are no available quizzes" %}.</p>
     {% endif %}
 
 </section>

@@ -5,22 +5,22 @@
 {% block content %}
 <section class=" d-flex flex-column">
 
-<h1>{% trans "Quizzes in the" %} <strong>{{ category.category }} </strong>{% trans "category" %}</h1>
+    <h1>{% trans "Quizzes in the" %} <strong>{{ category.category }} </strong>{% trans "category" %}</h1>
 
-  {% with object_list as quizzes %}
+    {% with object_list as quizzes %}
     {% if quizzes %}
-        <ul>
+    <ul>
         {% for quiz in quizzes %}
-            <li>
-			  <a href="{% url 'quiz_question' quiz_name=quiz.url %}">
-				{{ quiz.title }}
-			  </a>
-			</li>
+        <li>
+            <a href="{% url 'quiz_question' quiz_name=quiz.url %}">
+                {{ quiz.title }}
+            </a>
+        </li>
         {% endfor %}
-        </ul>
+    </ul>
     {% else %}
-        <p>{% trans "There are no quizzes" %}</p>
+    <p>{% trans "There are no quizzes" %}</p>
     {% endif %}
-  {% endwith %}
+    {% endwith %}
 </section>
 {% endblock %}

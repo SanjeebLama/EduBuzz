@@ -22,7 +22,7 @@ def login(request):
             messages.info(request, 'invalid credentials')
             return redirect("login")
     else:
-        return render(request, 'accounts/login.html')
+        return render(request, 'login.html')
 
 
 def register(request):
@@ -61,7 +61,7 @@ def logout(request):
 # insideAuth type garda ne page kholdaina untill you login
 def insideAuth(request):
     if request.user.is_authenticated:
-        return render(request, 'accounts/insideAuth.html')
+        return render(request, 'insideAuth.html')
 
     else:
         return render(request, 'accounts/login.html')

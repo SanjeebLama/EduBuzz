@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+
+<!-- slider_area_start -->
+
+<!-- slider_area_start -->
+<div class="slider_area">
+    <div class="single_slider  d-flex align-items-center slider_bg_1">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 col-md-6">
+                    <div class="slider_text">
+                        <h5 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".2s">EduBuzz</h5>
+                        <h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">Welcome {{user.username}}, to your profile</h3>
+                        <p class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s">
+                            Get unlimited access to structured courses & doubt clearing sessions
+                        </p>
+                        <div class="sldier_btn wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+                            <a href="{% url 'quiz_index' %}" class="boxed-btn3">Start Quiz</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ilstration_img wow fadeInRight d-none d-lg-block text-right" data-wow-duration="1s"
+         data-wow-delay=".2s" style="width:1000px">
+        <img src="{% static 'img/1.svg' %}" alt="" style="width:650px">
+    </div>
+</div>
+
+<!-- slider_area_end -->
+
+
+{% endblock %}
