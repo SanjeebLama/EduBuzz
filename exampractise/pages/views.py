@@ -2,18 +2,16 @@ from django.shortcuts import render
 
 # Create your views here.
 def index(request):
-	return render(request,'pages/index.html')
+	return render(request,'index.html')
 
-def browse(request):
-	return render(request,'pages/browse.html')
+def courses(request):
+	return render(request,'courses.html')
 
-def contacts(request):
-	return render(request,'pages/contacts.html')
+def about(request):
+	return render(request,'about.html')
 
-def subject(request,subject):
-	keyword= subject
-	return render(request,'pages/subject.html')
+def resources(request):
+	return render(request,'resources.html')
 
-def quiz(request, subject):
-	keyword=subject
-	return render(request,'pages/quiz.html')
+def discussion(request):
+	return render(request,'discussion.html')

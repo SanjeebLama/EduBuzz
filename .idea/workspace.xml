@@ -2,21 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78bf5bd3-3090-4ad1-ace4-6eb92ad782f1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/django Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampractise/exampractise/static/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampractise/exampractise/static/img/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampractise/exampractise/static/img/1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampractise/exampractise/static/img/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampractise/exampractise/static/img/2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampractise/exampractise/static/img/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampractise/exampractise/static/img/3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampractise/exampractise/static/img/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampractise/exampractise/static/img/4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampractise/exampractise/static/img/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampractise/exampractise/static/img/5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampractise/exampractise/static/img/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampractise/exampractise/static/img/6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampractise/exampractise/static/img/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampractise/exampractise/static/img/7.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampractise/exampractise/static/img/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampractise/exampractise/static/img/profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampractise/exampractise/static/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampractise/exampractise/static/logo_transparent.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exampractise/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/exampractise/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampractise/exampractise/static/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/exampractise/exampractise/static/css/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampractise/exampractise/static/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/exampractise/exampractise/static/css/theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampractise/exampractise/static/css/variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/exampractise/exampractise/static/css/variables.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampractise/templates/accounts/insideAuth.html" beforeDir="false" afterPath="$PROJECT_DIR$/exampractise/templates/accounts/insideAuth.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampractise/exampractise/static/css/layout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampractise/exampractise/static/css/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampractise/exampractise/static/css/variables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampractise/exampractise/static/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampractise/pages/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/exampractise/pages/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampractise/pages/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/exampractise/pages/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampractise/templates/accounts/insideAuth.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampractise/templates/accounts/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampractise/templates/accounts/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampractise/templates/accounts/test.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/exampractise/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/exampractise/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampractise/templates/pages/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampractise/templates/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/exampractise/templates/pages/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampractise/templates/partials/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/exampractise/templates/partials/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampractise/templates/partials/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/exampractise/templates/partials/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exampractise/templates/partials/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/exampractise/templates/partials/nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampractise/templates/pages/browse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampractise/templates/pages/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampractise/templates/pages/quiz.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampractise/templates/pages/search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampractise/templates/pages/subject.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampractise/templates/partials/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampractise/templates/partials/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampractise/templates/partials/nav.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +53,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -48,18 +75,21 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/exampractise/exampractise/static/img" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Python Morning\realdeal" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Test\Error\exampractise\exampractise\exampractise\static\img" />
+      <recent name="D:\Test\Error\exampractise\exampractise\exampractise\static" />
       <recent name="D:\Projects\django Project\exampractise\quiz" />
       <recent name="D:\Projects\django Project\exampractise\templates" />
       <recent name="D:\Projects\django Project\exampractise" />
-      <recent name="D:\Projects\django Project\exampractise\exampractise" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Test\Error\exampractise\exampractise\exampractise\static" />
+      <recent name="D:\Python Morning\realdeal" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -88,13 +118,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="518" y="154" key="FileChooserDialogImpl" timestamp="1581523183347">
+    <state x="504" y="206" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581785269666">
       <screen x="0" y="0" width="1475" height="789" />
     </state>
-    <state x="518" y="154" key="FileChooserDialogImpl/0.0.1475.789@0.0.1475.789" timestamp="1581523183347" />
-    <state x="451" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1581521491665">
+    <state x="504" y="206" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1475.789@0.0.1475.789" timestamp="1581785269666" />
+    <state x="518" y="154" key="FileChooserDialogImpl" timestamp="1581772387383">
       <screen x="0" y="0" width="1475" height="789" />
     </state>
-    <state x="451" y="224" key="com.intellij.ide.util.TipDialog/0.0.1475.789@0.0.1475.789" timestamp="1581521491665" />
+    <state x="518" y="154" key="FileChooserDialogImpl/0.0.1475.789@0.0.1475.789" timestamp="1581772387383" />
+    <state x="451" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1581819946765">
+      <screen x="0" y="0" width="1475" height="789" />
+    </state>
+    <state x="451" y="224" key="com.intellij.ide.util.TipDialog/0.0.1475.789@0.0.1475.789" timestamp="1581819946765" />
+    <state x="400" y="110" width="672" height="678" key="search.everywhere.popup" timestamp="1581780946737">
+      <screen x="0" y="0" width="1475" height="789" />
+    </state>
+    <state x="400" y="110" width="672" height="678" key="search.everywhere.popup/0.0.1475.789@0.0.1475.789" timestamp="1581780946737" />
   </component>
 </project>
